@@ -46,7 +46,7 @@
    -->
    <env-entry>
        <env-entry-name>solr/home</env-entry-name>
-       <env-entry-value>D:/lucenedir/solr6/solr_home/solr/</env-entry-value>
+       <env-entry-value>C:/data/lucene/solr6/solr_home/</env-entry-value>
        <env-entry-type>java.lang.String</env-entry-type>
    </env-entry> 
   <!-- Any path (name) registered in solrconfig.xml will be sent to that filter -->
@@ -168,5 +168,7 @@
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
 
-
+<listener>
+  <listener-class>org.apache.solr.handler.dataimport.scheduler.ApplicationListener</listener-class>
+</listener>
 </web-app>
