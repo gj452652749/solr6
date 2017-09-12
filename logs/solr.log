@@ -1,0 +1,47 @@
+2017-09-12 15:28:27.597 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
+2017-09-12 15:28:27.803 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
+2017-09-12 15:28:28.807 WARN  (main-SendThread(127.0.0.1:2181)) [   ] o.a.z.ClientCnxn Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2017-09-12 15:28:30.915 WARN  (main-SendThread(127.0.0.1:2181)) [   ] o.a.z.ClientCnxn Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2017-09-12 15:28:33.016 WARN  (main-SendThread(127.0.0.1:2181)) [   ] o.a.z.ClientCnxn Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2017-09-12 15:29:11.107 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
+2017-09-12 15:29:11.272 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
+2017-09-12 15:29:11.301 INFO  (main-EventThread) [   ] o.I.z.ZkClient zookeeper state changed (SyncConnected)
+2017-09-12 15:29:20.501 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
+2017-09-12 15:29:20.654 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
+2017-09-12 15:29:20.677 INFO  (main-EventThread) [   ] o.I.z.ZkClient zookeeper state changed (SyncConnected)
+2017-09-12 15:33:45.208 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
+2017-09-12 15:33:45.367 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
+2017-09-12 15:33:45.382 INFO  (main-EventThread) [   ] o.I.z.ZkClient zookeeper state changed (SyncConnected)
+2017-09-12 15:33:52.766 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
+2017-09-12 15:33:52.968 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
+2017-09-12 15:33:52.987 INFO  (main-EventThread) [   ] o.I.z.ZkClient zookeeper state changed (SyncConnected)
+2017-09-12 16:30:57.544 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
+2017-09-12 16:30:57.732 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
+2017-09-12 16:30:57.758 INFO  (main-EventThread) [   ] o.I.z.ZkClient zookeeper state changed (SyncConnected)
+2017-09-12 16:54:43.414 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
+2017-09-12 16:54:43.563 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
+2017-09-12 16:54:43.583 INFO  (main-EventThread) [   ] o.I.z.ZkClient zookeeper state changed (SyncConnected)
+2017-09-12 16:57:59.050 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
+2017-09-12 16:57:59.188 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
+2017-09-12 16:57:59.212 INFO  (main-EventThread) [   ] o.I.z.ZkClient zookeeper state changed (SyncConnected)
+2017-09-12 17:12:40.213 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
+2017-09-12 17:12:40.341 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
+2017-09-12 17:12:40.369 INFO  (main-EventThread) [   ] o.I.z.ZkClient zookeeper state changed (SyncConnected)
+2017-09-12 17:14:32.295 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
+2017-09-12 17:14:32.428 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
+2017-09-12 17:14:32.453 INFO  (main-EventThread) [   ] o.I.z.ZkClient zookeeper state changed (SyncConnected)
