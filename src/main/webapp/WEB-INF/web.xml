@@ -167,8 +167,9 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
-
+<!--  
 <listener>
   <listener-class>org.apache.solr.handler.dataimport.scheduler.ApplicationListener</listener-class>
 </listener>
+-->
 </web-app>

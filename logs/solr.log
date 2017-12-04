@@ -45,3 +45,6 @@ java.net.ConnectException: Connection refused: no further information
 2017-09-12 17:14:32.295 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
 2017-09-12 17:14:32.428 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
 2017-09-12 17:14:32.453 INFO  (main-EventThread) [   ] o.I.z.ZkClient zookeeper state changed (SyncConnected)
+2017-09-12 17:44:51.125 INFO  (ZkClient-EventThread-11-127.0.0.1:2181) [   ] o.I.z.ZkEventThread Starting ZkClient event thread.
+2017-09-12 17:44:51.257 INFO  (main) [   ] o.I.z.ZkClient Waiting for keeper state SyncConnected
+2017-09-12 17:44:51.277 INFO  (main-EventThread) [   ] o.I.z.ZkClient zookeeper state changed (SyncConnected)

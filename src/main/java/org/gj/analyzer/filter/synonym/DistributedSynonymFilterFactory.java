@@ -15,6 +15,7 @@ public class DistributedSynonymFilterFactory extends TokenFilterFactory{
 		if(useSynonym) 
 			distributedSynDicPath=get(args,"distributedSynDicPath");
 		System.out.println("get a para:"+useSynonym+"	"+distributedSynDicPath);
+		//必須所有的參數都被取出，否则会抛未知参数异常，导致无法生成collection
 		if (!args.isEmpty()) {
 		      throw new IllegalArgumentException("Unknown parameters: " + args);
 		    }

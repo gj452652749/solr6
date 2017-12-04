@@ -80,12 +80,13 @@ public class DistributedDicSynonymData{
 	private void reloadDicData(String dicPath,Object data) {
 		Map<String,String[]> synonymMap=synonymDicMap.get(dicPath);
 		synonymMap.clear();
-		JSONArray dicData=JSONArray.parseArray((String) data);
+		String dicDataStr=(String) data;
+		String[] lines=dicDataStr.split("\r\n");
 		String token;
 		String[] words;
-		for(int i=0;i<=dicData.size()-1;i++) {
-			token=dicData.getString(i);
-			words=token.split(",");
+		for(int i=0;i<=lines.length-1;i++) {
+			token=lines[i];
+			words=token.split("\\t");
 			for(String word:words) {
 				synonymMap.put(word, words);
 			}
