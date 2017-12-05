@@ -46,7 +46,7 @@
    -->
    <env-entry>
        <env-entry-name>solr/home</env-entry-name>
-       <env-entry-value>C:/data/lucene/solr6/solr_home/</env-entry-value>
+       <env-entry-value>/usr/local/workplace/data/solr6/solr_home/</env-entry-value>
        <env-entry-type>java.lang.String</env-entry-type>
    </env-entry> 
   <!-- Any path (name) registered in solrconfig.xml will be sent to that filter -->
